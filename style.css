@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+
+}
+
+.cal {
+    background-color: black;
+    width: fit-content;
+    padding: 5px;
+    
+}
+
+.current{
+    background-color: rgb(196, 196, 196);
+    padding: 3px 3px;
+    min-height: 20px;
+    margin: 0 2px;
+    margin-bottom: 3px;
+    display: flex;
+    text-align: bottom;
+    justify-content: end;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+button{
+    width: 20px;
+    height: 18px;
+    font-size: 7px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3px;
+    flex-shrink: 0;
+
+}
+
+.display{
+    padding: 0
+}
+
+.keys{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1px;
+    gap: 2px;
+    
+    
+      
+}
+
+#zero{
+    grid-column: span;
+    width: 49%;
+}.previous{
+    font-size: small;
+}
